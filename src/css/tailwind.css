@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card{
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl/*Principio de extracción de componentes*/
+}
+
+.cardTitle{
+    @apply pt-10 pb-2 px-10 text-white text-2xl font-bold
+}
+
+.cardDescription{
+    @apply px-10 text-white text-lg
+}
+
+.faqsTitles{
+    @apply  text-primary text-lg pb-3 font-bold
+}
+
+.faqsDescription{
+    @apply text-sm dark:text-white
+}
+
+.footerItems{
+    @apply text-sm text-gray-400 px-10
+}
+
+.navBarItems{
+    @apply text-primary font-bold
+}
+
